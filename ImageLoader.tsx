@@ -10,8 +10,8 @@ export const getImageSource = (imageName) => {
       return require('./icon/brocolli.png');
     case 'celery':
       return require('./icon/celery.png');
-    case 'cherries':
-      return require('./icon/cherries.png');
+    case 'cherry':
+      return require('./icon/cherry.png');
     case 'chicken':
       return require('./icon/chicken.png');
     case 'chili':
