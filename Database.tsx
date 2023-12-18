@@ -116,7 +116,6 @@ export class Database {
         'INSERT INTO inventory (category, itemName, expiryDate) VALUES (?,?,?)';
 
       try {
-
         db.executeSql(
           sql,
           [iCat, iName, expiry],
